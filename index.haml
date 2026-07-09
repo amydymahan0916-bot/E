@@ -5,62 +5,57 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>کانال‌های ایلیا فارکس</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
-
 <style>
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:"Vazirmatn",sans-serif;
+font-family:Tahoma,sans-serif;
 }
 
 body{
-background:linear-gradient(135deg,#070707,#111,#050505);
-min-height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
-padding:20px;
+min-height:100vh;
+background:linear-gradient(135deg,#050505,#0f0f0f,#000);
 overflow:hidden;
 }
 
 body::before{
 content:"";
-position:absolute;
+position:fixed;
 width:350px;
 height:350px;
 background:#00ff88;
 filter:blur(180px);
 top:-100px;
-right:-120px;
-opacity:.25;
+right:-100px;
+opacity:.2;
 }
 
 body::after{
 content:"";
-position:absolute;
+position:fixed;
 width:350px;
 height:350px;
 background:#ffd700;
 filter:blur(180px);
 bottom:-100px;
-left:-120px;
-opacity:.18;
+left:-100px;
+opacity:.15;
 }
 
-.box{
-position:relative;
-z-index:2;
-width:100%;
-max-width:430px;
-background:rgba(255,255,255,.05);
-backdrop-filter:blur(15px);
+.card{
+width:90%;
+max-width:420px;
+background:rgba(20,20,20,.85);
 border:1px solid rgba(255,255,255,.08);
-border-radius:28px;
+border-radius:25px;
 padding:35px 25px;
+backdrop-filter:blur(12px);
 text-align:center;
-box-shadow:0 0 40px rgba(0,0,0,.5);
+box-shadow:0 0 35px rgba(0,255,136,.25);
 animation:show .8s ease;
 }
 
@@ -78,72 +73,74 @@ transform:translateY(0);
 h1{
 color:#fff;
 font-size:30px;
-margin-bottom:12px;
-font-weight:900;
+margin-bottom:10px;
 }
 
 p{
-color:#bbb;
-font-size:15px;
-margin-bottom:30px;
+color:#bfbfbf;
+margin-bottom:25px;
 }
 
 .btn{
 display:block;
-width:100%;
 text-decoration:none;
-color:#fff;
+margin:16px 0;
 padding:18px;
-margin:15px 0;
-border-radius:18px;
+border-radius:15px;
 font-size:18px;
-font-weight:700;
-background:linear-gradient(135deg,#00c853,#00ff88);
+font-weight:bold;
+color:#fff;
+background:linear-gradient(135deg,#00b35f,#00ff88);
 transition:.3s;
-box-shadow:0 10px 30px rgba(0,255,136,.25);
+box-shadow:0 0 20px rgba(0,255,136,.25);
 }
 
 .btn:hover{
-transform:translateY(-5px) scale(1.03);
-box-shadow:0 15px 35px rgba(0,255,136,.45);
+transform:translateY(-3px) scale(1.03);
+box-shadow:0 0 25px #00ff88;
 }
 
 .footer{
-margin-top:30px;
-color:#888;
-font-size:13px;
+margin-top:35px;
+color:#fff;
+font-size:22px;
+font-weight:bold;
+line-height:1.8;
+}
+
+.footer span{
+display:block;
+font-size:34px;
+font-weight:900;
+color:#00ff88;
+text-shadow:0 0 15px #00ff88;
 }
 </style>
-</head>
 
+</head>
 <body>
 
-<div class="box">
+<div class="card">
 
 <h1>📡 کانال‌های ایلیا فارکس</h1>
 
-<p>برای ورود به کانال موردنظر روی دکمه مربوطه کلیک کنید.</p>
+<p>برای ورود به کانال موردنظر روی دکمه کلیک کنید.</p>
 
-<a class="btn"
-href="https://t.me/iliafx_Supportvip"
-target="_blank">
+<a class="btn" href="https://t.me/iliafx_Supportvip" target="_blank">
 💎 پشتیبانی VIP
 </a>
 
-<a class="btn"
-href="https://t.me/iliafx_vip"
-target="_blank">
+<a class="btn" href="https://t.me/iliafx_vip" target="_blank">
 📊 تحلیل روزانه
 </a>
 
-<a class="btn"
-href="https://t.me/mehrabi_groupp"
-target="_blank">
+<a class="btn" href="https://t.me/mehrabi_groupp" target="_blank">
 🎓 آموزش فارکس
 </a>
 
 <div class="footer">
-© ILIA FOREX
+سازنده:
+<span>ماهان امیدی</span>
 </div>
 
 </div>
