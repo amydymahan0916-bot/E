@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کانال‌های ایلیا فارکس</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Vazirmatn",sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#070707,#111,#050505);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+overflow:hidden;
+}
+
+body::before{
+content:"";
+position:absolute;
+width:350px;
+height:350px;
+background:#00ff88;
+filter:blur(180px);
+top:-100px;
+right:-120px;
+opacity:.25;
+}
+
+body::after{
+content:"";
+position:absolute;
+width:350px;
+height:350px;
+background:#ffd700;
+filter:blur(180px);
+bottom:-100px;
+left:-120px;
+opacity:.18;
+}
+
+.box{
+position:relative;
+z-index:2;
+width:100%;
+max-width:430px;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.08);
+border-radius:28px;
+padding:35px 25px;
+text-align:center;
+box-shadow:0 0 40px rgba(0,0,0,.5);
+animation:show .8s ease;
+}
+
+@keyframes show{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+h1{
+color:#fff;
+font-size:30px;
+margin-bottom:12px;
+font-weight:900;
+}
+
+p{
+color:#bbb;
+font-size:15px;
+margin-bottom:30px;
+}
+
+.btn{
+display:block;
+width:100%;
+text-decoration:none;
+color:#fff;
+padding:18px;
+margin:15px 0;
+border-radius:18px;
+font-size:18px;
+font-weight:700;
+background:linear-gradient(135deg,#00c853,#00ff88);
+transition:.3s;
+box-shadow:0 10px 30px rgba(0,255,136,.25);
+}
+
+.btn:hover{
+transform:translateY(-5px) scale(1.03);
+box-shadow:0 15px 35px rgba(0,255,136,.45);
+}
+
+.footer{
+margin-top:30px;
+color:#888;
+font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>📡 کانال‌های ایلیا فارکس</h1>
+
+<p>برای ورود به کانال موردنظر روی دکمه مربوطه کلیک کنید.</p>
+
+<a class="btn"
+href="https://t.me/iliafx_Supportvip"
+target="_blank">
+💎 پشتیبانی VIP
+</a>
+
+<a class="btn"
+href="https://t.me/iliafx_vip"
+target="_blank">
+📊 تحلیل روزانه
+</a>
+
+<a class="btn"
+href="https://t.me/mehrabi_groupp"
+target="_blank">
+🎓 آموزش فارکس
+</a>
+
+<div class="footer">
+© ILIA FOREX
+</div>
+
+</div>
+
+</body>
+</html>
